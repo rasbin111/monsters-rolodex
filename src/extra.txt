@@ -1,0 +1,12 @@
+import React from 'react';
+import './card-list.style.css';
+
+export const CardList = (props) =>{
+    return(
+        <div className='card-list'>
+            {/* props.children come  from:
+             <CardList "<anything here is props>">"<anything here is props.children>"</CardList> */}
+            {props.children}
+        </div>
+    )
+}
